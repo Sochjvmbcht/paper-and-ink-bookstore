@@ -109,7 +109,12 @@
     .book-info { padding: 16px 3px 3px; }
     .category-label { margin: 0 0 6px; font-size: 0.7rem; letter-spacing: 0.13em; font-weight: 800; color: var(--rust); text-transform: uppercase; }
     h3 { font-size: 1.26rem; margin: 0 0 3px; line-height: 1.23; }
-    .book-author { font-size: 0.87rem; margin: 0; color: var(--muted); }
+    .book-note {
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin: 10px 0;
+     }
     .book-bottom { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding-top: 15px; }
     .book-price { font-weight: 800; }
     .book-tag { font-size: 0.75rem; font-weight: 700; padding: 5px 9px; border-radius: 6px; background: var(--cream); color: var(--forest); }
@@ -256,7 +261,19 @@
       <div class="book-grid">
         <article class="book-card">
           <div class="book-cover cover-seven" aria-hidden="true"><span class="cover-title">The Book Thief</span><span class="cover-author">Markus Zusak</span></div>
-          <div class="book-info"><p class="category-label">Historical fiction</p><h3>The Book Thief</h3><p class="book-author">Markus Zusak</p><div class="book-bottom"><span class="book-price">€13.00</span><span class="book-tag">Moving story</span></div></div>
+         <div class="book-info">
+           <p class="category-label">Historical fiction</p>
+           <h3>The Book Thief</h3>
+           <p class="book-author">Markus Zusak</p>
+           <p class="book-note">
+             A moving story about courage, friendship,
+             and the power of books.
+           </p>
+          <div class="book-bottom">
+            <span class="book-price">€13.00</span>
+            <span class="book-tag">Moving story</span>
+          </div>
+         </div>
         </article>
         <article class="book-card">
           <div class="book-cover cover-eight" aria-hidden="true"><span class="cover-title">Educated</span><span class="cover-author">Tara Westover</span></div>
