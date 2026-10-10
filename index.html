@@ -109,6 +109,11 @@
     .book-info { padding: 16px 3px 3px; }
     .category-label { margin: 0 0 6px; font-size: 0.7rem; letter-spacing: 0.13em; font-weight: 800; color: var(--rust); text-transform: uppercase; }
     h3 { font-size: 1.26rem; margin: 0 0 3px; line-height: 1.23; }
+    .book-author {
+      font-size: 0.87rem;
+      margin: 0;
+      color: var(--muted);
+     }
     .book-note {
       color: var(--muted);
       font-size: 0.85rem;
@@ -146,7 +151,7 @@
     @media (max-width: 620px) {
       .container { width: min(100% - 32px, 520px); }
       .nav-wrap { justify-content: center; text-align: center; padding-block: 15px; }
-      .nav-links { justify-content: center; gap: 10px 15px; }
+      .nav-links { justify-content: center; gap: 8px 12px; }
       .nav-links a { font-size: 0.8rem; }
       .hero { grid-template-columns: 1fr; gap: 30px; padding-block: 52px 36px; }
       h1 { font-size: clamp(2.75rem, 12vw, 4rem); }
@@ -156,7 +161,7 @@
       .benefits { justify-content: flex-start; gap: 12px 20px; }
       .book-section, .events-section { padding-top: 54px; }
       .book-grid, .events-grid { grid-template-columns: 1fr; }
-      .book-cover { min-height: 230px; }
+      .book-cover { min-height: 215px; }
       .cover-title { font-size: 2rem; }
       .about { margin-block: 56px; grid-template-columns: 1fr; gap: 12px; padding: 30px 25px; }
       .event-card { gap: 14px; padding: 22px 18px; }
